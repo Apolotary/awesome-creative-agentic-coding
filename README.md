@@ -17,7 +17,7 @@ Please read the [contribution guidelines](contributing.md) before contributing.
   - [Live Visuals & Compositing](#live-visuals--compositing)
   - [Music & Live Coding](#music--live-coding)
   - [Computer Vision](#computer-vision)
-  - [Design & Drawing](#design--drawing)
+  - [Design, Drawing & Web Surfaces](#design-drawing--web-surfaces)
 - [Multi-Agent Creative Pipelines](#multi-agent-creative-pipelines)
 - [Projects, Demos & Installations](#projects-demos--installations)
 - [Creative Coding Substrates](#creative-coding-substrates)
@@ -41,8 +41,14 @@ The harnesses through which artists and creative coders most often drive everyth
 - [Cursor](https://www.cursor.com/) — Agentic IDE; the canonical pairing for human-AI generative-art labs (e.g., Cursor + p5.js workshops).
 - [OpenAI Codex](https://github.com/openai/codex) — Lightweight terminal coding agent from OpenAI.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) — Google's open-source Gemini agent for the terminal.
+- [GitHub Copilot cloud agent](https://docs.github.com/en/copilot/concepts/agents/cloud-agent/about-cloud-agent) — GitHub-hosted coding agent that turns issues and prompts into pull requests.
+- [OpenHands](https://github.com/OpenHands/OpenHands) — Open-source software-development agent with CLI, local GUI, SDK, and cloud surfaces.
+- [Goose](https://github.com/aaif-goose/goose) — Block / AAIF's open-source local agent with desktop, CLI, and MCP extension support.
+- [Qwen Code](https://github.com/QwenLM/qwen-code) — Open-source terminal agent optimized for Qwen models, with Skills/SubAgents and broad provider support.
 - [Kimi CLI](https://github.com/MoonshotAI/kimi-cli) — Moonshot AI's official CLI agent; pairs naturally with Hermes for cheap, fast creative loops.
 - [opencode](https://github.com/anomalyco/opencode) — Open-source coding agent.
+- [Crush](https://github.com/charmbracelet/crush) — Charm's terminal coding agent with LSP context, hooks, skills, and MCP transports.
+- [Mux](https://github.com/coder/mux) — Desktop/browser multiplexer for running several coding agents in isolated workspaces.
 - [Aider](https://github.com/Aider-AI/aider) — Open-source AI pair programmer in your terminal; model-agnostic.
 - [Cline](https://github.com/cline/cline) — Autonomous coding agent inside VS Code with Plan/Act modes and MCP support.
 - [Roo Code](https://github.com/RooCodeInc/Roo-Code) — "Whole dev team of AI agents" inside your editor.
@@ -58,7 +64,10 @@ For when the harness above is not enough and you want to build your own creative
 - [CrewAI](https://github.com/crewAIInc/crewAI) — Role-based multi-agent orchestration ("art director / generator / critic" maps cleanly).
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) — Multi-agent conversational framework with strong human-in-the-loop primitives.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) — Lightweight successor to Swarm, with first-class Realtime/voice handoffs for live installations.
+- [Google Agent Development Kit](https://github.com/google/adk-python) — Code-first agent framework with multi-agent orchestration and MCP/OpenAPI tools.
+- [Strands Agents SDK](https://github.com/strands-agents/sdk-python) — Model-driven agent SDK with native MCP client/server patterns and tool composition.
 - [Mastra](https://github.com/mastra-ai/mastra) — TypeScript framework for AI agents and workflows; native MCP authoring.
+- [BeeAI Framework](https://github.com/i-am-bee/beeai-framework) — Linux Foundation multi-agent framework in Python/TypeScript with MCP and ACP support.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) — Type-safe structured outputs; convenient when an agent must emit validated parameters for shaders, DAWs, or render configs.
 - [DSPy](https://github.com/stanfordnlp/dspy) — Stanford's *programming* (not prompting) framework with optimisable modules; tune creative pipelines as compiled programs.
 - [Letta](https://github.com/letta-ai/letta) — Stateful agents with long-term memory; for collaborator-agents that remember a project across sessions.
@@ -86,6 +95,7 @@ Model Context Protocol gives agents tools. These let an agent control the actual
 ### Image, Video, Audio Generation
 
 - [Replicate MCP](https://replicate.com/docs/reference/mcp) — Official MCP for Replicate's hosted-models API (image, video, audio, ML).
+- [Hugging Face MCP Server](https://github.com/huggingface/hf-mcp-server) — Official MCP for Hub search plus thousands of Gradio apps and Spaces.
 - [PiAPI MCP](https://github.com/apinetwork/piapi-mcp-server) — One-stop MCP for Midjourney, Flux, Kling, Luma, Udio, Chirp, Trellis.
 - [Nano Banana MCP](https://github.com/ConechoAI/Nano-Banana-MCP) — Server for Google Gemini 2.5 Flash Image generation/editing.
 - [Stability AI MCP](https://github.com/tadasant/mcp-server-stability-ai) — Stability generate / edit / upscale.
@@ -102,6 +112,7 @@ Model Context Protocol gives agents tools. These let an agent control the actual
 - [meshgen](https://github.com/huggingface/meshgen) — Hugging Face addon for using AI agents directly inside Blender.
 - [Blender MCP — Common Sense Machines](https://github.com/CommonSenseMachines/blender-mcp) — Text-to-4D-worlds variant.
 - [Houdini MCP](https://github.com/healkeiser/fxhoudinimcp) — Comprehensive SideFX Houdini MCP (168 tools, 19 categories).
+- [Godot MCP](https://github.com/Coding-Solo/godot-mcp) — Godot Engine MCP for launching projects, managing scenes, and capturing debug output.
 - [Unity MCP — CoplayDev](https://github.com/CoplayDev/unity-mcp) — Unity Editor bridge for AI assistants; assets, scenes, scripts, automation.
 - [Unity MCP — IvanMurzak](https://github.com/IvanMurzak/Unity-MCP) — Develop+test loop; any C# method becomes a tool with one line.
 - [Unreal MCP](https://github.com/chongdashu/unreal-mcp) — Unreal Engine over natural language for Cursor / Claude Desktop / Windsurf.
@@ -125,6 +136,7 @@ Model Context Protocol gives agents tools. These let an agent control the actual
 - [Strudel — param-strudels](https://github.com/Paramstr/param-strudels) — Autonomous AI agent that reads, writes, and evaluates Strudel in a browser IDE.
 - [MIDI MCP](https://github.com/tubone24/midi-mcp-server) — Generate MIDI from text-based music data via any agent.
 - [music21 MCP](https://github.com/brightlikethelight/music21-mcp-server) — Symbolic music analysis and generation via FastMCP.
+- [MuseScore MCP](https://github.com/ghchen99/mcp-musescore) — WebSocket MCP bridge for composing, editing, and navigating MuseScore notation.
 
 ### Computer Vision
 
@@ -132,9 +144,11 @@ Model Context Protocol gives agents tools. These let an agent control the actual
 - [OpenCV MCP](https://github.com/GongRzhe/opencv-mcp-server) — Image/video processing (filters, edges, face/object detect, tracking).
 - [YOLO MCP](https://github.com/GongRzhe/YOLO-MCP-Server) — YOLO detection, segmentation, classification, pose.
 
-### Design & Drawing
+### Design, Drawing & Web Surfaces
 
+- [Figma MCP Server](https://developers.figma.com/docs/figma-mcp-server/) — Official Figma MCP for design context and native canvas writes from agentic tools.
 - [Cursor Talk to Figma](https://github.com/grab/cursor-talk-to-figma-mcp) — MCP between agentic IDEs and Figma; read & modify designs programmatically.
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) — Official Microsoft MCP for browser control, screenshots, and visual feedback loops.
 - [tldraw — make-real](https://github.com/tldraw/make-real) — "Draw a UI, make it real" reference repo and agent starter kit.
 - [p5.js AI Editor + MCP](https://github.com/adilmoujahid/p5js-ai-editor) — Web-based p5.js IDE controlled entirely through Claude via 13-tool MCP server.
 
