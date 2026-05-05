@@ -4,8 +4,6 @@
 
 **Creative agentic coding** is what happens when an autonomous agent — an LLM in a loop, with tools, memory, and the ability to act — becomes part of a creative-coding pipeline. It is distinct from "AI for art" (text-to-image, model-only) and from pure creative coding (code-only). The agent is in the loop: picking parameters, chaining tools, judging its own output, and sometimes performing live.
 
-A canonical example that motivated this list: [blob-tracker](https://github.com/Apolotary/blob-tracker) — a Hermes Agent skill that runs audio-reactive blob tracking on video, with Kimi (Moonshot) choosing the visual algorithm and composing matching music.
-
 Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Contents
@@ -21,7 +19,7 @@ Please read the [contribution guidelines](contributing.md) before contributing.
   - [Computer Vision](#computer-vision)
   - [Design & Drawing](#design--drawing)
 - [Multi-Agent Creative Pipelines](#multi-agent-creative-pipelines)
-- [Notable Projects, Demos & Installations](#notable-projects-demos--installations)
+- [Projects, Demos & Installations](#projects-demos--installations)
 - [Creative Coding Substrates](#creative-coding-substrates)
 - [Articles](#articles)
 - [Talks](#talks)
@@ -155,9 +153,9 @@ Where the agentic part *is* the artwork.
 - [comfyui_LLM_party](https://github.com/heshengtao/comfyui_LLM_party) — Full LLM agent framework as ComfyUI nodes (MCP, GPT-sovits, FLUX prompt nodes).
 - [Limbicnation/hermes-asset-pipeline](https://github.com/Limbicnation/hermes-asset-pipeline) — Hermes-driven asset pipeline integrating ComfyUI, Blender, Godot 4.x, Python.
 
-## Notable Projects, Demos & Installations
+## Projects, Demos & Installations
 
-- [Apolotary/blob-tracker](https://github.com/Apolotary/blob-tracker) — Audio-reactive blob tracking on video; Hermes Agent skill, Kimi-driven creative parameter selection. The motivating example for this list.
+- [Apolotary/blob-tracker](https://github.com/Apolotary/blob-tracker) — Audio-reactive blob tracking on video; Hermes Agent skill with Kimi-driven creative parameter selection.
 - [Sougwen Chung — D.O.U.G.](https://sougwen.com/) — Decade-long human-machine drawing collaborations; *Spectral / DOUG_4* (WEF Davos 2025) couples live EEG biofeedback with an AI trained on her own stroke data driving robotic painting arms.
 - [Daito Manabe / Rhizomatiks](https://daito.ws/en/) — Live AV system with 64 AI agents that perceive music and autonomously generate visuals, dance, and reactions; *Latent Body* converts dance into video via diffusion.
 - [pkmital/dance2dance](https://github.com/pkmital/dance2dance) — *Discrete Figures*: seq2seq of dance data (Mikiko + Daito Manabe + Kyle McDonald).
@@ -258,6 +256,4 @@ See [contributing.md](contributing.md). Pull requests welcome — especially for
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Apolotary](https://github.com/Apolotary) has waived all copyright and related or neighboring rights to this work.
+[MIT License](LICENSE) © [Apolotary](https://github.com/Apolotary)
