@@ -54,6 +54,7 @@ Model Context Protocol gives agents tools. These let an agent control the actual
 - [ComfyUI Cloud MCP](https://github.com/Comfy-Org/comfy-cloud-mcp) — Official ComfyUI Cloud MCP for workflow execution.
 - [ComfyUI MCP (local)](https://github.com/joenorton/comfyui-mcp-server) — Lightweight Python MCP for a local ComfyUI instance.
 - [FFmpeg / Video-Audio MCP](https://github.com/misbahsy/video-audio-mcp) — FFmpeg-powered trimming, transitions, overlays.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) — Gives coding agents local-first CLI and MCP tools to compose and edit videos from editable plan.json timelines.
 
 ### 3D & Game Engines
 
